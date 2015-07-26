@@ -20,7 +20,7 @@ if mobs.mod and mobs.mod == "redo" then
 		visual = "mesh",
 		mesh = "animal_bat.b3d",
 		textures = l_skins,
-		rotate = 4.5,
+		rotate = 270,
 		walk_velocity = 10,
 		run_velocity = 23,
 		fall_speed = 0,
