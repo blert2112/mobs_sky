@@ -11,7 +11,7 @@ if mobs.mod and mobs.mod == "redo" then
 		{"(bf1.png^[colorize:darkgreen)^(bf2.png^[colorize:brown)^(bf3.png^[colorize:black)^(bf4.png^[colorize:darkgray)^(bf5.png^[colorize:red)"}
 	}
 	local l_spawnnear	= {"group:flower"}
-	local l_spawnchance	= 10000
+	local l_spawnchance	= 20000
 
 -- Butterfly
 	mobs:register_mob("mobs_butterfly:butterfly", {
@@ -43,7 +43,7 @@ if mobs.mod and mobs.mod == "redo" then
 		end
 	})
 	--name, nodes, neighbors, min_light, max_light, interval, chance, active_object_count, min_height, max_height
-	mobs:spawn_specific("mobs_butterfly:butterfly", {"air"}, l_spawnnear, 5, 20, 30, l_spawnchance, 2, 0, 31000)
+	mobs:spawn_specific("mobs_butterfly:butterfly", {"air"}, l_spawnnear, 5, 20, 30, l_spawnchance, 1, 0, 31000)
 	mobs:register_egg("mobs_butterfly:butterfly", "Butterfly", "default_cloud.png", 1)
 
 end

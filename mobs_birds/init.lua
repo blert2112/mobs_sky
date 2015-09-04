@@ -29,16 +29,16 @@ if mobs.mod and mobs.mod == "redo" then
 	local l_spawn_in			= {"air"}
 	local l_spawn_near_gull		= {"default:water_source", "default:water_flowing"}
 	local l_spawn_near_bird		= {"default:leaves", "default:pine_needles", "default:jungleleaves", "default:cactus"}
-	local l_spawn_chance_gull	= 12000
-	local l_spawn_chance_bird	= 24000
+	local l_spawn_chance_gull	= 24000
+	local l_spawn_chance_bird	= 36000
 
 -- load settings
 	dofile(minetest.get_modpath("mobs_birds").."/SETTINGS.txt")
 	if not ENABLE_LARGE_BIRDS then
-		l_spawn_chance_bird = l_spawn_chance_bird - 12000
+		l_spawn_chance_bird = l_spawn_chance_bird - 18000
 	end
 	if not ENABLE_SMALL_BIRDS then
-		l_spawn_chance_bird = l_spawn_chance_bird - 12000
+		l_spawn_chance_bird = l_spawn_chance_bird - 18000
 	end
 
 -- gulls
@@ -69,7 +69,7 @@ if mobs.mod and mobs.mod == "redo" then
 			end
 		})
 		--name, nodes, neighbors, min_light, max_light, interval, chance, active_object_count, min_height, max_height
-		mobs:spawn_specific("mobs_birds:gull", l_spawn_in, l_spawn_near_gull, 5, 20, 30, l_spawn_chance_gull, 2, 0, 31000)
+		mobs:spawn_specific("mobs_birds:gull", l_spawn_in, l_spawn_near_gull, 5, 20, 30, l_spawn_chance_gull, 1, 0, 31000)
 		mobs:register_egg("mobs_birds:gull", "Gull", l_egg_texture, 1)
 	end
 
@@ -102,7 +102,7 @@ if mobs.mod and mobs.mod == "redo" then
 			end
 		})
 		--name, nodes, neighbors, min_light, max_light, interval, chance, active_object_count, min_height, max_height
-		mobs:spawn_specific("mobs_birds:bird_lg", l_spawn_in, l_spawn_near_bird, 5, 20, 30, l_spawn_chance_bird, 2, 0, 31000)
+		mobs:spawn_specific("mobs_birds:bird_lg", l_spawn_in, l_spawn_near_bird, 5, 20, 30, l_spawn_chance_bird, 1, 0, 31000)
 		mobs:register_egg("mobs_birds:bird_lg", "Large bird", l_egg_texture, 1)
 	end
 
@@ -135,7 +135,7 @@ if mobs.mod and mobs.mod == "redo" then
 			end
 		})
 		--name, nodes, neighbors, min_light, max_light, interval, chance, active_object_count, min_height, max_height
-		mobs:spawn_specific("mobs_birds:bird_sm", l_spawn_in, l_spawn_near_bird, 5, 20, 30, l_spawn_chance_bird, 2, 0, 31000)
+		mobs:spawn_specific("mobs_birds:bird_sm", l_spawn_in, l_spawn_near_bird, 5, 20, 30, l_spawn_chance_bird, 1, 0, 31000)
 		mobs:register_egg("mobs_birds:bird_sm", "Small bird", l_egg_texture, 1)
 	end
 

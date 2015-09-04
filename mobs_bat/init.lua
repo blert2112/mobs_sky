@@ -7,7 +7,7 @@ if mobs.mod and mobs.mod == "redo" then
 		{"animal_bat.png^[colorize:black:150"}
 	}
 	local l_spawnnear	= {"default:stone"}
-	local l_spawnchance	= 10000
+	local l_spawnchance	= 30000
 
 	mobs:register_mob("mobs_bat:bat", {
 		type = "animal",
@@ -49,7 +49,7 @@ if mobs.mod and mobs.mod == "redo" then
 	})
 
 	--name, nodes, neighbors, min_light, max_light, interval, chance, active_object_count, min_height, max_height
-	mobs:spawn_specific("mobs_bat:bat", {"air"}, l_spawnnear, 2, 10, 30, l_spawnchance, 5, -100, 11000)
+	mobs:spawn_specific("mobs_bat:bat", {"air"}, l_spawnnear, 0, 6, 30, l_spawnchance, 2, -100, 11000)
 	mobs:register_egg("mobs_bat:bat", "Bat", "animal_bat_inv.png", 0)
 
 end
