@@ -12,6 +12,7 @@ if mobs.mod and mobs.mod == "redo" then
 	mobs:register_mob("mobs_bat:bat", {
 		type = "animal",
 		damage = 1,
+		reach = 1,
 		attack_type = "dogfight",
 		hp_min = 7,
 		hp_max = 12,
