@@ -1,4 +1,4 @@
-# mobs_sky
+# mobs_birds
 (from blert2112's mobs_sky modpack)
 
 ## Authors and Licensing
