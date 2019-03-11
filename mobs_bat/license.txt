@@ -11,7 +11,7 @@
 	- Lean Rada
 
 * Code: MIT License (below)
-> Copyright 2015 mahmutelmas06, blert2112, duane-r
+> Copyright 2015 mahmutelmas06, blert2112
 >
 > Permission is hereby granted, free of charge, to any person obtaining
 > a copy of this software and associated documentation files (the
@@ -38,3 +38,7 @@
   the mod was written by mahmutelmas06 and posted to the official forum thread)
 * License of Api  WTFPL Simple Mobs by PilzAdam > Mob Redo by Ten1plus > Redo+ Mahmutelmas06
   (use of the API is considered common knowledge so code in this repo is not a "derivative work")
+* duane-r is not listed as an author, since in his words, "The model has
+  not been modified. Only the texture file names in it have been
+  disabled. This will stop the log spam for those of us who run
+  servers."
