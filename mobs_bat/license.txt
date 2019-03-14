@@ -4,7 +4,10 @@
 ## Authors and Licensing
 
 * Media
-  * Sounds from bigsoundbank: WTFPL ( confirmed by email )
+  * animal_bat.ogg: CC0 see mobs_bat/sounds/CC0-legalcode.txt (based on
+    "Umbrella Flapping - Senn K6 SD 788T.WAV" by lunchmoney from
+    <https://freesound.org/people/lunchmoney/sounds/383112/>--this
+    replaces the original one that sounded like paper -poikilos)
   * Model and textures are from Defense Subgame:
     "Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
     http://creativecommons.org/licenses/by-sa/3.0/"
@@ -29,15 +32,18 @@
 > MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 > IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
 > CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
-> TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THESOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+> TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+> SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
 ## Special Thanks:
 * License of defense mod: GPL
-  (code in this directory of the repo is not derived from the defense mod whatsoever;
-  the mod was written by mahmutelmas06 and posted to the official forum thread)
-* License of Api  WTFPL Simple Mobs by PilzAdam > Mob Redo by Ten1plus > Redo+ Mahmutelmas06
-  (use of the API is considered common knowledge so code in this repo is not a "derivative work")
+  (code in this directory of the repo is not derived from the defense
+  mod whatsoever; the mod was written by mahmutelmas06 and posted to the
+  official forum thread)
+* License of Api  WTFPL Simple Mobs by PilzAdam > Mob Redo by TenPlus1 >
+  Redo+ Mahmutelmas06 (use of the API is considered common knowledge so
+  code in this repo is not a "derivative work")
 * duane-r is not listed as an author, since in his words, "The model has
   not been modified. Only the texture file names in it have been
   disabled. This will stop the log spam for those of us who run
